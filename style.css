@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+.wrapper{
+    width: 400px;
+    margin: 150px auto;
+}
+.form input{
+    width: calc(100%-4px);
+
+}
+
+.form button{
+    width: 20%;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.form input,
+.form button{
+    padding: 10px;
+    background-color: rgba(0, 255, 255, 0.393);
+    border-radius: 5px;
+    border: none;
+    outline: none;
+
+}
+
+table{
+    width: 100%;
+margin-top: 10px;
+border-collapse: collapse;
+}
+td{
+    border: 1px solid rgba(35, 42, 42, 0.09);
+    padding: 10px;
+    background-color: rgba(0, 255, 255, 0.393);
+    width: 80%;
+    border-radius: 5px;
+}
+
+
+body{
+    background-image: url('./bg.jpg');
+    animation-name: bg;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes bg{
+    0%{
+        background-position: 0 0;
+
+    }
+    100%{
+        background-position:100% 30%;
+    }
+}
+
+
+
